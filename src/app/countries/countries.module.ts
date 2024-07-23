@@ -9,8 +9,6 @@ import { CountryPageComponent } from './pages/country-page/country-page.componen
 import { CountriesRoutingModule } from './countries-routing.module';
 import { CountryTableComponent } from './components/country-table/country-table.component';
 
-
-
 @NgModule({
   declarations: [
     ByCapitalPageComponent,
@@ -19,10 +17,6 @@ import { CountryTableComponent } from './components/country-table/country-table.
     CountryPageComponent,
     CountryTableComponent,
   ],
-  imports: [
-    CommonModule,
-    CountriesRoutingModule,
-    SharedModule,
-  ],
+  imports: [CommonModule, CountriesRoutingModule, SharedModule],
 })
-export class CountriesModule { }
+export class CountriesModule {}
